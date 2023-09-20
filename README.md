@@ -85,10 +85,32 @@ dados.
 # Resultados
 ## Ensaio de classificação:
 ### Sobre os dados de treinamento
+Model Name |	Accuracy |	Precision |	Recall | F1-Score
+---------- |  -------- | ---------- | ------ | --------
+KNN |	0.832 |	0.812 |	0.797 |	0.805
+Decision Tree |	0.966 |	0.977 |	0.945 |	0.961
+Random Forest |	1.000 |	1.000 |	1.000 |	1.000
+Logistic Regression |	0.567 |	0.636 |	0.000 |	0.000
+
 
 ### Sobre os dados de validação
 
+Model Name |	Accuracy |	Precision |	Recall | F1-Score
+---------- |  -------- | ---------- | ------ | --------
+KNN |	0.676 |	0.628 |	0.621 | 0.625
+Decision Tree |	0.952 |	0.959 |	0.929 |	0.943
+Random Forest |	0.965 |	0.974 |	0.945 |	0.959
+Logistic Regression |	0.567 |	0.750 |	0.000 |	0.000
+
 ### Sobre os dados de teste
+
+Model Name |	Accuracy |	Precision |	Recall | F1-Score
+---------- |  -------- | ---------- | ------ | --------
+KNN |	0.672 |	0.630 |	0.612 |	0.621
+Decision Tree |	0.950 |	0.957 |	0.927 |	0.942
+Random Forest |	0.964 |	0.972 |	0.946 |	0.958
+Logistic Regression |	0.561 |	0.000 |	0.000 |	0.000
+
 
 ## Ensaio de regressão:
 
