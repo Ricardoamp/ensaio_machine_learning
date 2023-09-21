@@ -116,11 +116,55 @@ Logistic Regression |	0.561 |	0.000 |	0.000 |	0.000
 
 ### Sobre os dados de treinamento
 
+Model Name |	R2 |	MSE |	RMSE |	MAE |	MAPE
+---------- |  -- | ---- | ---- | ---- | ----
+Linear Regression | 0.046 |	455.996 |	21.354 |	16.998 |	865.319
+Decision Tree Regressor |	0.114 |	423.747 |	20.585 |	16.369 |	786.954
+Random Forest Regressor |	0.904 |	45.741 |	6.763 |	4.845 |	261.395
+Polinomial Regression |	0.094 |	432.986 |	20.808 |	16.458 |	835.054
+Linear Regression Lasso |	0.046 |	456.057 |	21.355 |	17.002 |	866.067
+Linear Regression Ridge |	0.046 |	456.020 |	21.355 |	16.999 |	865.525
+Linear Regression Elastic Net |	0.027 |	465.046 |	21.565 |	17.153 |	868.619
+Polinomial Regression Lasso |	0.087 |	436.505 |	20.893 |	16.543 |	842.795
+Polinomial Regression Ridge |	0.094 |	432.987 |	20.808 |	16.458 |	835.056
+Polinomial Regression Elastic Net |	0.087 |	436.505 |	20.893 |	16.543 |	842.795
+
 ### Sobre os dados de validação
+
+Model Name |	R2 |	MSE |	RMSE |	MAE |	MAPE
+---------- |  -- | ---- | ---- | ---- | ----
+Linear Regression |	0.040 |	458.447 |	21.411 |	17.040 |	868.254
+Decision Tree Regressor |	0.064 |	447.161 |	21.146 |	16.843 |	839.578
+Random Forest Regressor |	0.337 |	316.541 |	17.792 |	12.989 |	700.538
+Polinomial Regression |	0.066 |	445.768 |	21.113 |	16.750 |	854.793
+Linear Regression Lasso |	0.040 |	458.445 |	21.411 |	17.038 |	868.621
+Linear Regression Ridge |	0.040 |	458.441 |	21.411 |	17.038 |	868.134
+Linear Regression Elastic Net |	0.026 |	465.307 |	21.571 |	17.121 |	867.703
+Polinomial Regression Lasso |	0.068 |	444.933 |	21.093 |	16.732 |	858.740
+Polinomial Regression Ridge |	0.067 |	445.709 |	21.112 |	16.749 |	854.876
+Polinomial Regression Elastic Net |	0.068 |	444.933 |	21.093 |	16.732 |	858.740
 
 ### Sobre os dados de teste
 
+Model Name |	R2 |	MSE |	RMSE |	MAE |	MAPE
+---------- |  -- | ---- | ---- | ---- | ----
+Linear Regression |	0.052 |	461.428 |	21.481 |	17.130 |	852.186
+Decision Tree Regressor |	0.072	| 451.756 |	21.255 |	17.011 |	783.395
+Random Forest Regressor |	0.351 |	315.835	| 17.772	| 13.068	| 663.328
+Polinomial Regression	| 0.090	| 443.041	| 21.049	| 16.721	| 824.246
+Linear Regression Lasso |	0.052	| 461.592	| 21.485	| 17.130	| 853.947
+Linear Regression Ridge	| 0.052	| 461.495	| 21.482	| 17.128	| 853.066
+Linear Regression Elastic Net	| 0.028	| 473.107	| 21.751	| 17.298	| 868.867
+Polinomial Regression Lasso	| 0.086	| 445.017	| 21.095	| 16.759	| 832.238
+Polinomial Regression Ridge	| 0.090	| 443.025	| 21.048	| 16.720	| 824.366
+Polinomial Regression Elastic Net	| 0.086	| 445.017	| 21.095	| 16.759	| 832.238
+
 ## Ensaio de clusterização:
+
+Model Name	| SS	| Clusters
+----------  | --  | --------
+K-MEANS	| 0.233	| 3
+AFFINITY PROPAGATION	| 0.215	| 3
 
 # Conclusão
 Nesse ensaio de Machine Learning, consegui adquirir experiência e
