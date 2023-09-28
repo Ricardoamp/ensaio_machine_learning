@@ -9,31 +9,31 @@ O objetivo desse projeto será realizar ensaios com algoritmos de
 Classificação, Regressão e Clusterização, para estudar a mudança do
 comportamento da performance, a medida que os valores dos principais
 parâmetros de controle de overfitting e underfitting mudam.
-# 3.0. Planejamento da solução
-## 3.1. Produto final
+# Planejamento da solução
+## 3.0. Produto final
 O produto final será 7 tabelas mostrando a performance dos algoritmos,
 avaliados usando múltiplas métricas, para 3 conjuntos de dados
 diferentes: Treinamento, validação e teste.
-## 3.2. Algoritmos ensaiados
-### Classificação:
+## 4.0. Algoritmos ensaiados
+### 4.1. Classificação:
 **Algoritmos:** KNN, Decision Tree, Random Forest e Logistic Regression
 
 **Métricas de performance:** Accuracy, Precision, Recall e F1-Score
-### Regressão:
+### 4.2. Regressão:
 **Algoritmos:** Linear Regression, Decision Tree Regressor, Random Forest
 Regressor, Polinomial Regression, Linear Regression Lasso, Linear
 Regression Ridge, Linear Regression Elastic Net, Polinomial Regression
 Lasso, Polinomial Regression Ridge e Polinomial Regression Elastic Net
 
 **Métricas de performance:** R2, MSE, RMSE, MAE e MAPE
-### Agrupamento:
+### 4.3. Agrupamento:
 **Algoritmos:** K-Means e Affinity Propagation
 
 **Métricas de performance:** Silhouette Score
-## 4.0. Ferramentas utilizadas
+## 5.0. Ferramentas utilizadas
 Python 3.8 e Scikit-learn
-# 5.0. Desenvolvimento
-## Estratégia da solução
+# Desenvolvimento
+## 6.0. Estratégia da solução
 Para o objetivo de ensaiar os algoritmos de Machine Learning, eu vou
 escrever os códigos utilizando a linguagem Python, para treinar cada um
 dos algoritmos e vou variar seus principais parâmetros de ajuste de
@@ -41,7 +41,7 @@ overfitting e observar a métrica final.
 O conjunto de valores que fizerem os algoritmos alcançarem a melhor
 performance, serão aqueles escolhidos para o treinamento final do
 algoritmo.
-## O passo a passo
+## 7.0. O passo a passo
 **Passo 1:** Divisão dos dados em treino, teste e validação.
 
 **Passo 2:** Treinamento dos algoritmos com os dados de treinamento,
@@ -69,21 +69,21 @@ parâmetro, utilizando o conjunto de dados de teste.
 **Passo 9:** Avaliar os ensaios e anotar os 3 principais Insights que se
 destacaram.
 
-# 6.0. Os top 3 Insights
-### 6.1. Insight Top 1
+# 8.0. Os top 3 Insights
+### 8.1. Insight Top 1
 Os algoritmos baseado em árvores possuem uma performance melhores
 em todas as métricas, quando aplicados sobre os dados de teste, no
 ensaio de Classificação.
-## 6.2. Insight Top 2
+## 8.2. Insight Top 2
 A performance dos algoritmos de classificação sobre os dados de
 validação ficou bem próxima da performance sobre os dados de teste.
-## 6.3. Insight Top 3
+## 8.3. Insight Top 3
 Todos os algoritmo de regressão não apresentaram boas métricas de
 performance, o que mostra uma necessidade de uma seleção de atributos
 e uma preparação melhor das variáveis independentes do conjunto de
 dados.
-# 7.0. Resultados
-## 7.1. Ensaio de classificação:
+# Resultados
+## 9.0. Ensaio de classificação:
 ### Sobre os dados de treinamento
 Model Name |	Accuracy |	Precision |	Recall | F1-Score
 ---------- |  -------- | ---------- | ------ | --------
@@ -112,7 +112,7 @@ Random Forest |	0.964 |	0.972 |	0.946 |	0.958
 Logistic Regression |	0.561 |	0.000 |	0.000 |	0.000
 
 
-## 7.2. Ensaio de regressão:
+## 10.0. Ensaio de regressão:
 
 ### Sobre os dados de treinamento
 
@@ -159,14 +159,14 @@ Polinomial Regression Lasso	| 0.086	| 445.017	| 21.095	| 16.759	| 832.238
 Polinomial Regression Ridge	| 0.090	| 443.025	| 21.048	| 16.720	| 824.366
 Polinomial Regression Elastic Net	| 0.086	| 445.017	| 21.095	| 16.759	| 832.238
 
-## 7.3. Ensaio de clusterização:
+## 11.0. Ensaio de clusterização:
 
 Model Name	| SS	| Clusters
 ----------  | --  | --------
 K-MEANS	| 0.233	| 3
 AFFINITY PROPAGATION	| 0.215	| 3
 
-# 8.0. Conclusão
+# 12.0. Conclusão
 Nesse ensaio de Machine Learning, consegui adquirir experiência e
 entender melhor sobre os limites dos algoritmos entre os estados de
 underffiting e overfitting.
@@ -181,7 +181,7 @@ Esse ensaio de Machine Learning foi muito importante para aprofundar o
 entendimento sobre o funcionamento de diversos algoritmos de
 classificação, regressão e clusterização e quais os principais parâmetros
 de controle entre os estados de underfitting e overfitting.
-# 9.0. Próximos passos
+# 13.0. Próximos passos
 Como próximos passos desse ensaio, pretendo ensaiar novos algoritmos
 de Machine Learning e usar diferentes conjuntos de dados para aumentar
 o conhecimento sobre os algoritmos e quais cenários são mais favoráveis
