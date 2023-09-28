@@ -1,20 +1,20 @@
 # Ensaio de Machine Learning
-## Descrição
+## 1.0. Descrição
 A empresa Data Money acredita que a expertise no treinamento e ajuste
 fino dos algoritmos, feito pelos Cientistas de Dados da empresa, é a
 principal motivo dos ótimos resultados que as consultorias vem
 entregando aos seus clientes.
-## Objetivo
+## 2.0. Objetivo
 O objetivo desse projeto será realizar ensaios com algoritmos de
 Classificação, Regressão e Clusterização, para estudar a mudança do
 comportamento da performance, a medida que os valores dos principais
 parâmetros de controle de overfitting e underfitting mudam.
-# Planejamento da solução
-## Produto final
+# 3.0. Planejamento da solução
+## 3.1. Produto final
 O produto final será 7 tabelas mostrando a performance dos algoritmos,
 avaliados usando múltiplas métricas, para 3 conjuntos de dados
 diferentes: Treinamento, validação e teste.
-## Algoritmos ensaiados
+## 3.2. Algoritmos ensaiados
 ### Classificação:
 **Algoritmos:** KNN, Decision Tree, Random Forest e Logistic Regression
 
@@ -30,9 +30,9 @@ Lasso, Polinomial Regression Ridge e Polinomial Regression Elastic Net
 **Algoritmos:** K-Means e Affinity Propagation
 
 **Métricas de performance:** Silhouette Score
-## Ferramentas utilizadas
+## 4.0. Ferramentas utilizadas
 Python 3.8 e Scikit-learn
-# Desenvolvimento
+# 5.0. Desenvolvimento
 ## Estratégia da solução
 Para o objetivo de ensaiar os algoritmos de Machine Learning, eu vou
 escrever os códigos utilizando a linguagem Python, para treinar cada um
@@ -69,21 +69,21 @@ parâmetro, utilizando o conjunto de dados de teste.
 **Passo 9:** Avaliar os ensaios e anotar os 3 principais Insights que se
 destacaram.
 
-# Os top 3 Insights
-### Insight Top 1
+# 6.0. Os top 3 Insights
+### 6.1. Insight Top 1
 Os algoritmos baseado em árvores possuem uma performance melhores
 em todas as métricas, quando aplicados sobre os dados de teste, no
 ensaio de Classificação.
-## Insight Top 2
+## 6.2. Insight Top 2
 A performance dos algoritmos de classificação sobre os dados de
 validação ficou bem próxima da performance sobre os dados de teste.
-## Insight Top 3
+## 6.3. Insight Top 3
 Todos os algoritmo de regressão não apresentaram boas métricas de
 performance, o que mostra uma necessidade de uma seleção de atributos
 e uma preparação melhor das variáveis independentes do conjunto de
 dados.
-# Resultados
-## Ensaio de classificação:
+# 7.0. Resultados
+## 7.1. Ensaio de classificação:
 ### Sobre os dados de treinamento
 Model Name |	Accuracy |	Precision |	Recall | F1-Score
 ---------- |  -------- | ---------- | ------ | --------
@@ -112,7 +112,7 @@ Random Forest |	0.964 |	0.972 |	0.946 |	0.958
 Logistic Regression |	0.561 |	0.000 |	0.000 |	0.000
 
 
-## Ensaio de regressão:
+## 7.2. Ensaio de regressão:
 
 ### Sobre os dados de treinamento
 
@@ -159,14 +159,14 @@ Polinomial Regression Lasso	| 0.086	| 445.017	| 21.095	| 16.759	| 832.238
 Polinomial Regression Ridge	| 0.090	| 443.025	| 21.048	| 16.720	| 824.366
 Polinomial Regression Elastic Net	| 0.086	| 445.017	| 21.095	| 16.759	| 832.238
 
-## Ensaio de clusterização:
+## 7.3. Ensaio de clusterização:
 
 Model Name	| SS	| Clusters
 ----------  | --  | --------
 K-MEANS	| 0.233	| 3
 AFFINITY PROPAGATION	| 0.215	| 3
 
-# Conclusão
+# 8.0. Conclusão
 Nesse ensaio de Machine Learning, consegui adquirir experiência e
 entender melhor sobre os limites dos algoritmos entre os estados de
 underffiting e overfitting.
@@ -181,7 +181,7 @@ Esse ensaio de Machine Learning foi muito importante para aprofundar o
 entendimento sobre o funcionamento de diversos algoritmos de
 classificação, regressão e clusterização e quais os principais parâmetros
 de controle entre os estados de underfitting e overfitting.
-# Próximos passos
+# 9.0. Próximos passos
 Como próximos passos desse ensaio, pretendo ensaiar novos algoritmos
 de Machine Learning e usar diferentes conjuntos de dados para aumentar
 o conhecimento sobre os algoritmos e quais cenários são mais favoráveis
